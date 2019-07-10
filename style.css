@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    background-color: black;
+
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align:top;
+}
+div.brick {
+    background-color: blue;
+    display: inline-block;
+
+}
+div.door {
+    background: repeating-linear-gradient(
+        45deg,
+        black,
+        black 1px,
+        blue 1px,
+        blue 2px
+    );
+    display: inline-block;
+
+}
+div.invincible {
+    background: url("images/red_star.gif");
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.coin{
+    background: url("images/star.gif");
+    background-size:12px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+div#fruit{
+    background: url("images/cherry.gif");
+    background-size:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* animation: jump 1s infinite; */
+}
+/* @keyframes jump {
+    0% {margin-top: 0px}
+    50% {margin-top: 8px}
+    100% {margin-top: 0px}
+} */
+div.ghost1{
+    background: url("images/blue_ghost.gif");
+    background-size:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+div.ghost2{
+    background: url("images/red_face_ghost.gif");
+    background-size:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+div.ghost3{
+    background: url("images/pink_ghost.gif");
+    background-size:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+div.ghost4{
+    background: url("images/orange_ghost.gif");
+    background-size:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+div.empty{
+
+
+}
+div#pacman{
+    background: url("images/pacman.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:absolute;
+    height:20px;
+    width:20px;
+    
+}
+div#score{
+    border:1px solid white;
+    Width:60px;
+    height:40px;
+    color:white;
+    line-height: 40px;
+    padding-left: 40px;
+
+
+}
